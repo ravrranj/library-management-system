@@ -13,7 +13,7 @@ public class LibraryApp {
         
         
         // Sample Books 
-        library.adBook(new Book("123456", "The Java Journey", "ChunChun"));
+        library.addBook(new Book("123456", "The Java Journey", "ChunChun"));
         library.addBook(new Book("234567", "Mastering OOPs", "Bud"));
         library.addBook(new Book("345678", "Data Structures in Java", "John Doe"));
         library.addBook(new Book ("456789", "Guide to become a Backend Developer", "Buddy"));

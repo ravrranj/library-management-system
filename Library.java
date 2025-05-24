@@ -23,7 +23,7 @@ public class Library {
         booksByTitle.computeIfAbsent(book.getTitle().toLowerCase(), k -> new ArrayList<>()).add(book);
 
         // Add to author map
-        booksByAuthor.computeIfAbsent(book.getAuthor().toLowerCase(), k-> new ArrayList<>().add(book));
+        booksByAuthor.computeIfAbsent(book.getAuthor().toLowerCase(), k-> new ArrayList<>()).add(book);
     }
 
     // Search book of ISBN
@@ -69,7 +69,7 @@ public class Library {
             return;
         }
         System.out.println("Library Books:");
-        for (Book book : booksByIsbn.value()) {
+        for (Book book : booksByIsbn.values()) {
             System.out.println(book);
         }
     }

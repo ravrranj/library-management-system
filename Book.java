@@ -8,7 +8,7 @@ public class Book {
 
     public Book (String isbn, String title, String  author) {
         this.isbn = isbn;
-        title.title = title;
+        this.title = title;
         this.author = author;
         this.isBorrowed = false;
     }
@@ -25,7 +25,7 @@ public class Book {
         return author;
     }
 
-    public booleab isBorrowed() {
+    public boolean isBorrowed() {
         return isBorrowed;
     }
 

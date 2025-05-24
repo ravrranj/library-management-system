@@ -21,7 +21,8 @@ public class LibraryApp {
             System.out.println("\nChoose an option:");
             System.out.println("1. List All books");
             System.out.println("2. Search by ISBN");
-            System.out.println("4. Search by Title");
+            System.out.println("3. Search by Title");
+            System.out.println("4. Search by Author");
             System.out.println("5. Borrow a Book");
             System.out.println("6. Return a Book");
             System.out.println("7. Exit");
